@@ -39,8 +39,8 @@ function downloadCV() {
   alert("Tiedoston lataaminen onnistui.");
 
   const link = document.createElement('a');
-  link.href = "Visuaalinen cv 2026.png";
-  link.download = "Visuaalinen cv 2026.png";
+  link.href = "Visuaalinen cv 2026.pdf";
+  link.download = "Visuaalinen cv 2026.pdf";
   link.click();
 }
 
